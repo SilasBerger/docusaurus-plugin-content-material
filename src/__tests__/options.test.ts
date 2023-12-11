@@ -13,7 +13,7 @@ import {
   DefaultNumberPrefixParser,
   DisabledNumberPrefixParser,
 } from '../numberPrefix';
-import type {Options, PluginOptions} from '@docusaurus/plugin-content-docs';
+import type {Options, PluginOptions} from 'plugin-content-material';
 import type {Validate} from '@docusaurus/types';
 
 // The type of remark/rehype plugins can be function/object

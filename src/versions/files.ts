@@ -18,7 +18,7 @@ import {validateVersionNames} from './validation';
 import type {
   PluginOptions,
   VersionMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {VersionContext} from './index';
 
 /** Add a prefix like `community_version-1.0.0`. No-op for default instance. */

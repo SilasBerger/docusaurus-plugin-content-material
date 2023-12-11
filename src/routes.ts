@@ -20,7 +20,7 @@ import type {
   CategoryGeneratedIndexMetadata,
   PluginOptions,
   PropTagsListPage,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 async function buildVersionCategoryGeneratedIndexRoutes({
   version,

@@ -32,7 +32,7 @@ import type {
   PluginOptions,
   PropSidebarItemLink,
   PropSidebars,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {
   SidebarItemsGeneratorOption,
   NormalizedSidebar,

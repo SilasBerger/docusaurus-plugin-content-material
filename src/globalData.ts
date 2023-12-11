@@ -11,12 +11,12 @@ import type {FullVersion} from './types';
 import type {
   CategoryGeneratedIndexMetadata,
   DocMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {
   GlobalVersion,
   GlobalSidebar,
   GlobalDoc,
-} from '@docusaurus/plugin-content-docs/client';
+} from 'plugin-content-material/client';
 import type {Sidebars} from './sidebars/types';
 
 function toGlobalDataDoc(doc: DocMetadata): GlobalDoc {

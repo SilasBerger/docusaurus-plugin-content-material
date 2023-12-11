@@ -9,7 +9,7 @@ import {toGlobalDataVersion} from '../globalData';
 import {createSidebarsUtils} from '../sidebars/utils';
 import {getCategoryGeneratedIndexMetadataList} from '../categoryGeneratedIndex';
 import type {Sidebars} from '../sidebars/types';
-import type {DocMetadata} from '@docusaurus/plugin-content-docs';
+import type {DocMetadata} from 'plugin-content-material';
 
 describe('toGlobalDataVersion', () => {
   it('generates the right docs, sidebars, and metadata', () => {

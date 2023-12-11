@@ -13,7 +13,7 @@ import {isCategoryIndex} from '../docs';
 import type {
   DocMetadataBase,
   VersionMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {
   NormalizedSidebarItem,
   NormalizedSidebar,

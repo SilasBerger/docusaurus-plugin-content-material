@@ -23,7 +23,7 @@ import type {
   PluginOptions,
   VersionBanner,
   VersionMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 export type VersionContext = {
   /** The version name to get banner of. */

@@ -13,7 +13,7 @@ import {
   validateFrontMatter,
   ContentVisibilitySchema,
 } from '@docusaurus/utils-validation';
-import type {DocFrontMatter} from '@docusaurus/plugin-content-docs';
+import type {DocFrontMatter} from 'plugin-content-material';
 
 const FrontMatterLastUpdateErrorMessage =
   '{{#label}} does not look like a valid front matter FileChange object. Please use a FileChange object (with an author and/or date).';

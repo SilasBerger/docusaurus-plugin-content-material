@@ -24,7 +24,7 @@ import type {
   DocMetadataBase,
   PropNavigationLink,
   VersionMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 export function isCategoriesShorthand(
   item: SidebarItemConfig,

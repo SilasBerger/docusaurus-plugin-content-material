@@ -12,7 +12,7 @@ import type {
   CategoryIndexMatcher,
   DocMetadataBase,
   VersionMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {Slugger} from '@docusaurus/utils';
 
 // Makes all properties visible when hovering over the type

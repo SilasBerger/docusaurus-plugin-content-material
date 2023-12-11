@@ -18,7 +18,7 @@ import {
 import type {
   LoadedVersion,
   LoadedContent,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {
   Sidebar,
   SidebarItemCategory,

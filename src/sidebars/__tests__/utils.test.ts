@@ -19,7 +19,7 @@ import type {Sidebar, Sidebars} from '../types';
 import type {
   DocMetadataBase,
   PropNavigationLink,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 describe('createSidebarsUtils', () => {
   const sidebar1: Sidebar = [

@@ -14,7 +14,7 @@ import type {
   ActivePlugin,
   ActiveDocContext,
   DocVersionSuggestions,
-} from '@docusaurus/plugin-content-docs/client';
+} from 'plugin-content-material/client';
 import type {UseDataOptions} from '@docusaurus/types';
 
 // This code is not part of the api surface, not in ./theme on purpose

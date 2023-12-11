@@ -7,7 +7,7 @@
 
 import {escapeRegexp} from '@docusaurus/utils';
 import {validateDocFrontMatter} from '../frontMatter';
-import type {DocFrontMatter} from '@docusaurus/plugin-content-docs';
+import type {DocFrontMatter} from 'plugin-content-material';
 
 function testField(params: {
   prefix: string;

@@ -15,7 +15,7 @@ import type {
   DocMetadata,
   LoadedContent,
   LoadedVersion,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 function createSampleDoc(doc: Pick<DocMetadata, 'id'>): DocMetadata {
   return {

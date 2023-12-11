@@ -10,7 +10,7 @@ import {createDocsByIdIndex} from './docs';
 import type {
   CategoryGeneratedIndexMetadata,
   DocMetadataBase,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {SidebarItemCategoryWithGeneratedIndex} from './sidebars/types';
 
 function getCategoryGeneratedIndexMetadata({

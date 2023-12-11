@@ -10,7 +10,7 @@ import type {
   VersionMetadata,
   LoadedVersion,
   CategoryGeneratedIndexMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {SidebarsUtils} from './sidebars/utils';
 
 export type DocFile = {

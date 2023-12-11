@@ -20,7 +20,7 @@ import type {
   CategoryMetadataFile,
   ProcessedSidebars,
 } from '../types';
-import type {VersionMetadata} from '@docusaurus/plugin-content-docs';
+import type {VersionMetadata} from 'plugin-content-material';
 
 describe('processSidebars', () => {
   function createStaticSidebarItemGenerator(

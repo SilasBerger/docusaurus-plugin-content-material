@@ -46,7 +46,7 @@ import type {
   DocFrontMatter,
   LoadedContent,
   LoadedVersion,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {LoadContext, Plugin} from '@docusaurus/types';
 import type {
   SourceToPermalink,

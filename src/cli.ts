@@ -19,7 +19,7 @@ import {
 import {validateVersionName} from './versions/validation';
 import {loadSidebarsFile} from './sidebars';
 import {CURRENT_VERSION_NAME} from './constants';
-import type {PluginOptions} from '@docusaurus/plugin-content-docs';
+import type {PluginOptions} from 'plugin-content-material';
 import type {LoadContext} from '@docusaurus/types';
 
 async function createVersionedSidebarFile({

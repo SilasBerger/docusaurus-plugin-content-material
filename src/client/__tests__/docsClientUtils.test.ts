@@ -18,7 +18,7 @@ import type {
   GlobalVersion,
   ActivePlugin,
   GlobalDoc,
-} from '@docusaurus/plugin-content-docs/client';
+} from 'plugin-content-material/client';
 
 describe('docsClientUtils', () => {
   it('getActivePlugin', () => {

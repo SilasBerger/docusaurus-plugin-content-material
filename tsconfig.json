@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "./tsconfig.docusaurus-base.json",
   "references": [{"path": "./tsconfig.client.json"}],
   "compilerOptions": {
     "noEmit": false,

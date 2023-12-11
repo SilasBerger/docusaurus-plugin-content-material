@@ -39,7 +39,7 @@ import type {
   VersionMetadata,
   LoadedVersion,
   FileChange,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {LoadContext} from '@docusaurus/types';
 import type {SidebarsUtils} from './sidebars/utils';
 import type {DocFile} from './types';

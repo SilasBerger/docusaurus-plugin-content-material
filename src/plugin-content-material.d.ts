@@ -7,7 +7,7 @@
 
 /// <reference types="@docusaurus/module-type-aliases" />
 
-declare module '@docusaurus/plugin-content-docs' {
+declare module 'plugin-content-material' {
   import type {MDXOptions, LoadedMDXContent} from '@docusaurus/mdx-loader';
 
   import type {
@@ -576,7 +576,7 @@ declare module '@docusaurus/plugin-content-docs' {
 }
 
 declare module '@theme/DocItem' {
-  import type {PropDocContent} from '@docusaurus/plugin-content-docs';
+  import type {PropDocContent} from 'plugin-content-material';
 
   export type DocumentRoute = {
     readonly component: () => JSX.Element;
@@ -594,7 +594,7 @@ declare module '@theme/DocItem' {
 }
 
 declare module '@theme/DocCategoryGeneratedIndexPage' {
-  import type {PropCategoryGeneratedIndex} from '@docusaurus/plugin-content-docs';
+  import type {PropCategoryGeneratedIndex} from 'plugin-content-material';
 
   export interface Props {
     readonly categoryGeneratedIndex: PropCategoryGeneratedIndex;
@@ -606,14 +606,14 @@ declare module '@theme/DocCategoryGeneratedIndexPage' {
 }
 
 declare module '@theme/DocTagsListPage' {
-  import type {PropTagsListPage} from '@docusaurus/plugin-content-docs';
+  import type {PropTagsListPage} from 'plugin-content-material';
 
   export interface Props extends PropTagsListPage {}
   export default function DocTagsListPage(props: Props): JSX.Element;
 }
 
 declare module '@theme/DocTagDocListPage' {
-  import type {PropTagDocList} from '@docusaurus/plugin-content-docs';
+  import type {PropTagDocList} from 'plugin-content-material';
 
   export interface Props {
     readonly tag: PropTagDocList;
@@ -635,7 +635,7 @@ declare module '@theme/DocsRoot' {
 }
 
 declare module '@theme/DocVersionRoot' {
-  import type {PropVersionMetadata} from '@docusaurus/plugin-content-docs';
+  import type {PropVersionMetadata} from 'plugin-content-material';
   import type {RouteConfigComponentProps} from 'react-router-config';
   import type {Required} from 'utility-types';
 

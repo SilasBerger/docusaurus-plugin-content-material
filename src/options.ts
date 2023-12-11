@@ -21,7 +21,7 @@ import {
   DisabledNumberPrefixParser,
 } from './numberPrefix';
 import type {OptionValidationContext} from '@docusaurus/types';
-import type {PluginOptions, Options} from '@docusaurus/plugin-content-docs';
+import type {PluginOptions, Options} from 'plugin-content-material';
 
 export const DEFAULT_OPTIONS: Omit<PluginOptions, 'id' | 'sidebarPath'> = {
   path: 'docs', // Path to data on filesystem, relative to site dir.

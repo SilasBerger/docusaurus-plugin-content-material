@@ -26,7 +26,7 @@ import type {
   PropVersionDocs,
   DocMetadata,
   LoadedVersion,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 export function toSidebarDocItemLinkProp({
   item,

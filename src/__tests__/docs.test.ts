@@ -30,7 +30,7 @@ import type {
   DocMetadataBase,
   VersionMetadata,
   PropNavigationLink,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 import type {LoadContext} from '@docusaurus/types';
 import type {Optional} from 'utility-types';
 

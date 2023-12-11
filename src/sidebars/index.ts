@@ -16,7 +16,7 @@ import {validateSidebars, validateCategoryMetadataFile} from './validation';
 import {normalizeSidebars} from './normalization';
 import {processSidebars} from './processor';
 import {postProcessSidebars} from './postProcessor';
-import type {PluginOptions} from '@docusaurus/plugin-content-docs';
+import type {PluginOptions} from 'plugin-content-material';
 import type {SidebarsConfig, Sidebars, SidebarProcessorParams} from './types';
 
 export const DefaultSidebars: SidebarsConfig = {

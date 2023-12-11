@@ -6,7 +6,7 @@
  */
 
 import _ from 'lodash';
-import type {VersionsOptions} from '@docusaurus/plugin-content-docs';
+import type {VersionsOptions} from 'plugin-content-material';
 
 export function validateVersionName(name: unknown): asserts name is string {
   if (typeof name !== 'string') {

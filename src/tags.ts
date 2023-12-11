@@ -8,7 +8,7 @@
 import _ from 'lodash';
 import {getTagVisibility, groupTaggedItems} from '@docusaurus/utils';
 import type {VersionTags} from './types';
-import type {DocMetadata} from '@docusaurus/plugin-content-docs';
+import type {DocMetadata} from 'plugin-content-material';
 
 export function getVersionTags(docs: DocMetadata[]): VersionTags {
   const groups = groupTaggedItems(docs, (doc) => doc.tags);

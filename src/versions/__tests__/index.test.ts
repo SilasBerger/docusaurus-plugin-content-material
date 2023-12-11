@@ -14,7 +14,7 @@ import type {I18n, LoadContext} from '@docusaurus/types';
 import type {
   PluginOptions,
   VersionMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 const DefaultI18N: I18n = {
   path: 'i18n',

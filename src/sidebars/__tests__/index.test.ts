@@ -14,7 +14,7 @@ import type {SidebarProcessorParams} from '../types';
 import type {
   DocMetadata,
   VersionMetadata,
-} from '@docusaurus/plugin-content-docs';
+} from 'plugin-content-material';
 
 describe('loadSidebars', () => {
   const fixtureDir = path.join(__dirname, '__fixtures__', 'sidebars');
