@@ -65,7 +65,7 @@ export function getDocsDirPathLocalized({
 }): string {
   return getPluginI18nPath({
     localizationDir,
-    pluginName: 'docusaurus-plugin-content-docs',
+    pluginName: 'docusaurus-plugin-content-material',
     pluginId,
     subPaths: [
       versionName === CURRENT_VERSION_NAME

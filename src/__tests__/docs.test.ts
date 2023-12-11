@@ -939,7 +939,7 @@ describe('versioned site', () => {
       },
       version: '1.0.0',
       source:
-        '@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        '@site/i18n/en/docusaurus-plugin-content-material/version-1.0.0/hello.md',
       tags: [],
       unlisted: false,
     });
@@ -1060,7 +1060,7 @@ describe('versioned site', () => {
       },
       version: '1.0.0',
       source:
-        '@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        '@site/i18n/en/docusaurus-plugin-content-material/version-1.0.0/hello.md',
       editUrl: hardcodedEditUrl,
       tags: [],
       unlisted: false,
@@ -1102,7 +1102,7 @@ describe('versioned site', () => {
       },
       version: '1.0.0',
       source:
-        '@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        '@site/i18n/en/docusaurus-plugin-content-material/version-1.0.0/hello.md',
       editUrl:
         'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-1.0.0/hello.md',
       tags: [],
@@ -1137,7 +1137,7 @@ describe('versioned site', () => {
       },
       version: '1.0.0',
       source:
-        '@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        '@site/i18n/en/docusaurus-plugin-content-material/version-1.0.0/hello.md',
       editUrl:
         'https://github.com/facebook/docusaurus/edit/main/website/docs/hello.md',
       tags: [],
@@ -1173,9 +1173,9 @@ describe('versioned site', () => {
       },
       version: '1.0.0',
       source:
-        '@site/i18n/fr/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        '@site/i18n/fr/docusaurus-plugin-content-material/version-1.0.0/hello.md',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        'https://github.com/facebook/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-material/version-1.0.0/hello.md',
       tags: [],
       unlisted: false,
     });
@@ -1210,9 +1210,9 @@ describe('versioned site', () => {
       },
       version: '1.0.0',
       source:
-        '@site/i18n/fr/docusaurus-plugin-content-docs/version-1.0.0/hello.md',
+        '@site/i18n/fr/docusaurus-plugin-content-material/version-1.0.0/hello.md',
       editUrl:
-        'https://github.com/facebook/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-docs/current/hello.md',
+        'https://github.com/facebook/docusaurus/edit/main/website/i18n/fr/docusaurus-plugin-content-material/current/hello.md',
       tags: [],
       unlisted: false,
     });

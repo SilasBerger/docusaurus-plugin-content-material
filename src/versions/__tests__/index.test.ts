@@ -45,7 +45,7 @@ describe('readVersionsMetadata', () => {
         contentPath: path.join(simpleSiteDir, 'docs'),
         contentPathLocalized: path.join(
           simpleSiteDir,
-          'i18n/en/docusaurus-plugin-content-docs/current',
+          'i18n/en/docusaurus-plugin-content-material/current',
         ),
         isLast: true,
         routePriority: -1,
@@ -208,7 +208,7 @@ describe('readVersionsMetadata', () => {
         contentPath: path.join(versionedSiteDir, 'docs'),
         contentPathLocalized: path.join(
           versionedSiteDir,
-          'i18n/en/docusaurus-plugin-content-docs/current',
+          'i18n/en/docusaurus-plugin-content-material/current',
         ),
         isLast: false,
         routePriority: undefined,
@@ -230,7 +230,7 @@ describe('readVersionsMetadata', () => {
         ),
         contentPathLocalized: path.join(
           versionedSiteDir,
-          'i18n/en/docusaurus-plugin-content-docs/version-1.0.1',
+          'i18n/en/docusaurus-plugin-content-material/version-1.0.1',
         ),
         isLast: true,
         routePriority: -1,
@@ -255,7 +255,7 @@ describe('readVersionsMetadata', () => {
         ),
         contentPathLocalized: path.join(
           versionedSiteDir,
-          'i18n/en/docusaurus-plugin-content-docs/version-1.0.0',
+          'i18n/en/docusaurus-plugin-content-material/version-1.0.0',
         ),
         isLast: false,
         routePriority: undefined,
@@ -280,7 +280,7 @@ describe('readVersionsMetadata', () => {
         ),
         contentPathLocalized: path.join(
           versionedSiteDir,
-          'i18n/en/docusaurus-plugin-content-docs/version-withSlugs',
+          'i18n/en/docusaurus-plugin-content-material/version-withSlugs',
         ),
         isLast: false,
         routePriority: undefined,
@@ -410,28 +410,28 @@ describe('readVersionsMetadata', () => {
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/current',
         },
         {
           ...v101,
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-1.0.1',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-1.0.1',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/version-1.0.1',
         },
         {
           ...v100,
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-1.0.0',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-1.0.0',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/version-1.0.0',
         },
         {
           ...vWithSlugs,
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/versioned_docs/version-withSlugs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/version-withSlugs',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/version-withSlugs',
         },
       ]);
     });
@@ -455,28 +455,28 @@ describe('readVersionsMetadata', () => {
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/current',
         },
         {
           ...v101,
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/current',
         },
         {
           ...v100,
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/current',
         },
         {
           ...vWithSlugs,
           editUrl:
             'https://github.com/facebook/docusaurus/edit/main/website/docs',
           editUrlLocalized:
-            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current',
+            'https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-material/current',
         },
       ]);
     });
@@ -651,7 +651,7 @@ describe('readVersionsMetadata', () => {
         contentPath: path.join(versionedSiteDir, 'community'),
         contentPathLocalized: path.join(
           versionedSiteDir,
-          'i18n/en/docusaurus-plugin-content-docs-community/current',
+          'i18n/en/docusaurus-plugin-content-material-community/current',
         ),
         isLast: false,
         routePriority: undefined,
@@ -673,7 +673,7 @@ describe('readVersionsMetadata', () => {
         ),
         contentPathLocalized: path.join(
           versionedSiteDir,
-          'i18n/en/docusaurus-plugin-content-docs-community/version-1.0.0',
+          'i18n/en/docusaurus-plugin-content-material-community/version-1.0.0',
         ),
         isLast: true,
         routePriority: -1,

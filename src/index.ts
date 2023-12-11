@@ -56,10 +56,12 @@ import type {
 } from './types';
 import type {RuleSetRule} from 'webpack';
 
-export default async function pluginContentDocs(
+export default async function pluginContentMaterial(
   context: LoadContext,
   options: PluginOptions,
 ): Promise<Plugin<LoadedContent>> {
+  console.log('Invoking plugin-content-material');
+
   const {siteDir, generatedFilesDir, baseUrl, siteConfig} = context;
   // Mutate options to resolve sidebar path according to siteDir
   options.sidebarPath = resolveSidebarPathOption(siteDir, options.sidebarPath);
@@ -70,7 +72,7 @@ export default async function pluginContentDocs(
 
   const pluginDataDirRoot = path.join(
     generatedFilesDir,
-    'docusaurus-plugin-content-docs',
+    'docusaurus-plugin-content-material',
   );
   const dataDir = path.join(pluginDataDirRoot, pluginId);
   const aliasedSource = (source: string) =>
@@ -80,7 +82,7 @@ export default async function pluginContentDocs(
   const env = process.env.NODE_ENV as DocEnv;
 
   return {
-    name: 'docusaurus-plugin-content-docs',
+    name: 'docusaurus-plugin-content-material',
 
     extendCli(cli) {
       const isDefaultPluginId = pluginId === DEFAULT_PLUGIN_ID;

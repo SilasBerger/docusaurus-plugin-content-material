@@ -17,7 +17,7 @@ exports[`sidebar site with undefined sidebar 1`] = `
 `;
 
 exports[`sidebar site with wrong sidebar content 1`] = `
-"Invalid sidebar file at "packages/docusaurus-plugin-content-docs/src/__tests__/__fixtures__/simple-site/wrong-sidebars.json".
+"Invalid sidebar file at "src/__tests__/__fixtures__/simple-site/wrong-sidebars.json".
 These sidebar document ids do not exist:
 - nonExistent
 
@@ -1690,7 +1690,7 @@ exports[`simple website content: route config 1`] = `
 exports[`simple website getPathToWatch 1`] = `
 [
   "sidebars.json",
-  "i18n/en/docusaurus-plugin-content-docs/current/**/*.{md,mdx}",
+  "i18n/en/docusaurus-plugin-content-material/current/**/*.{md,mdx}",
   "docs/**/*.{md,mdx}",
   "docs/**/_category_.{json,yml,yaml}",
 ]
@@ -2729,7 +2729,7 @@ exports[`versioned website (community) content 1`] = `
   "sidebar": "community",
   "sidebarPosition": undefined,
   "slug": "/team",
-  "source": "@site/i18n/en/docusaurus-plugin-content-docs-community/current/team.md",
+  "source": "@site/i18n/en/docusaurus-plugin-content-material-community/current/team.md",
   "sourceDirName": ".",
   "tags": [],
   "title": "Team title translated",
@@ -2802,11 +2802,11 @@ exports[`versioned website (community) content: data 1`] = `
   "frontMatter": {},
   "sidebar": "community"
 }",
-  "site-i-18-n-en-docusaurus-plugin-content-docs-community-current-team-md-7e5.json": "{
+  "site-i-18-n-en-docusaurus-plugin-content-material-community-current-team-md-7e5.json": "{
   "id": "team",
   "title": "Team title translated",
   "description": "Team current version (translated)",
-  "source": "@site/i18n/en/docusaurus-plugin-content-docs-community/current/team.md",
+  "source": "@site/i18n/en/docusaurus-plugin-content-material-community/current/team.md",
   "sourceDirName": ".",
   "slug": "/team",
   "permalink": "/community/next/team",
@@ -2964,7 +2964,7 @@ exports[`versioned website (community) content: route config 1`] = `
                 "component": "@theme/DocItem",
                 "exact": true,
                 "modules": {
-                  "content": "@site/i18n/en/docusaurus-plugin-content-docs-community/current/team.md",
+                  "content": "@site/i18n/en/docusaurus-plugin-content-material-community/current/team.md",
                 },
                 "path": "/community/next/team",
                 "sidebar": "community",
@@ -3008,11 +3008,11 @@ exports[`versioned website (community) content: route config 1`] = `
 exports[`versioned website (community) getPathToWatch 1`] = `
 [
   "community_sidebars.json",
-  "i18n/en/docusaurus-plugin-content-docs-community/current/**/*.{md,mdx}",
+  "i18n/en/docusaurus-plugin-content-material-community/current/**/*.{md,mdx}",
   "community/**/*.{md,mdx}",
   "community/**/_category_.{json,yml,yaml}",
   "community_versioned_sidebars/version-1.0.0-sidebars.json",
-  "i18n/en/docusaurus-plugin-content-docs-community/version-1.0.0/**/*.{md,mdx}",
+  "i18n/en/docusaurus-plugin-content-material-community/version-1.0.0/**/*.{md,mdx}",
   "community_versioned_docs/version-1.0.0/**/*.{md,mdx}",
   "community_versioned_docs/version-1.0.0/**/_category_.{json,yml,yaml}",
 ]
@@ -3420,11 +3420,11 @@ exports[`versioned website content: data 1`] = `
     "slug": "../../../../../../../../tryToEscapeSlug"
   }
 }",
-  "site-i-18-n-en-docusaurus-plugin-content-docs-version-1-0-0-hello-md-fe5.json": "{
+  "site-i-18-n-en-docusaurus-plugin-content-material-version-1-0-0-hello-md-fe5.json": "{
   "id": "hello",
   "title": "hello",
   "description": "Hello 1.0.0 ! (translated en)",
-  "source": "@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md",
+  "source": "@site/i18n/en/docusaurus-plugin-content-material/version-1.0.0/hello.md",
   "sourceDirName": ".",
   "slug": "/",
   "permalink": "/docs/1.0.0/",
@@ -4203,7 +4203,7 @@ exports[`versioned website content: route config 1`] = `
                 "component": "@theme/DocItem",
                 "exact": true,
                 "modules": {
-                  "content": "@site/i18n/en/docusaurus-plugin-content-docs/version-1.0.0/hello.md",
+                  "content": "@site/i18n/en/docusaurus-plugin-content-material/version-1.0.0/hello.md",
                 },
                 "path": "/docs/1.0.0/",
                 "sidebar": "docs",
@@ -4477,19 +4477,19 @@ exports[`versioned website content: withSlugs version sidebars 1`] = `
 exports[`versioned website getPathToWatch 1`] = `
 [
   "sidebars.json",
-  "i18n/en/docusaurus-plugin-content-docs/current/**/*.{md,mdx}",
+  "i18n/en/docusaurus-plugin-content-material/current/**/*.{md,mdx}",
   "docs/**/*.{md,mdx}",
   "docs/**/_category_.{json,yml,yaml}",
   "versioned_sidebars/version-1.0.1-sidebars.json",
-  "i18n/en/docusaurus-plugin-content-docs/version-1.0.1/**/*.{md,mdx}",
+  "i18n/en/docusaurus-plugin-content-material/version-1.0.1/**/*.{md,mdx}",
   "versioned_docs/version-1.0.1/**/*.{md,mdx}",
   "versioned_docs/version-1.0.1/**/_category_.{json,yml,yaml}",
   "versioned_sidebars/version-1.0.0-sidebars.json",
-  "i18n/en/docusaurus-plugin-content-docs/version-1.0.0/**/*.{md,mdx}",
+  "i18n/en/docusaurus-plugin-content-material/version-1.0.0/**/*.{md,mdx}",
   "versioned_docs/version-1.0.0/**/*.{md,mdx}",
   "versioned_docs/version-1.0.0/**/_category_.{json,yml,yaml}",
   "versioned_sidebars/version-withSlugs-sidebars.json",
-  "i18n/en/docusaurus-plugin-content-docs/version-withSlugs/**/*.{md,mdx}",
+  "i18n/en/docusaurus-plugin-content-material/version-withSlugs/**/*.{md,mdx}",
   "versioned_docs/version-withSlugs/**/*.{md,mdx}",
   "versioned_docs/version-withSlugs/**/_category_.{json,yml,yaml}",
 ]

@@ -51,7 +51,7 @@ const versionCurrent = createFakeVersion({
     siteDir,
     'i18n',
     'fr',
-    'docusaurus-plugin-content-docs',
+    'docusaurus-plugin-content-material',
     CURRENT_VERSION_NAME,
   ),
 });
@@ -63,7 +63,7 @@ const version100 = createFakeVersion({
     siteDir,
     'i18n',
     'fr',
-    'docusaurus-plugin-content-docs',
+    'docusaurus-plugin-content-material',
     'version-1.0.0',
   ),
 });
@@ -77,7 +77,7 @@ const sourceToPermalink: SourceToPermalink = {
   '@site/versioned_docs/version-1.0.0/subdir/doc1.md':
     '/docs/1.0.0/subdir/doc1',
 
-  '@site/i18n/fr/docusaurus-plugin-content-docs/current/doc-localized.md':
+  '@site/i18n/fr/docusaurus-plugin-content-material/current/doc-localized.md':
     '/fr/doc-localized',
   '@site/docs/doc-localized.md': '/doc-localized',
 };
@@ -204,7 +204,7 @@ describe('linkify', () => {
     await expect(() =>
       transform(doc1),
     ).rejects.toThrowErrorMatchingInlineSnapshot(
-      `"Unexpected error: Markdown file at "<PROJECT_ROOT>/packages/docusaurus-plugin-content-docs/src/markdown/__tests__/__fixtures__/outside/doc1.md" does not belong to any docs version!"`,
+      `"Unexpected error: Markdown file at "<PROJECT_ROOT>/packages/docusaurus-plugin-content-material/src/markdown/__tests__/__fixtures__/outside/doc1.md" does not belong to any docs version!"`,
     );
   });
 });

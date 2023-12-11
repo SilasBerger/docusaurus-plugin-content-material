@@ -13,20 +13,8 @@ const ignorePatterns = [
     '/node_modules/',
     '__fixtures__',
     '__mocks__',
-    '/testUtils.ts',
-    '/packages/docusaurus/lib',
-    '/packages/docusaurus-logger/lib',
-    '/packages/docusaurus-utils/lib',
-    '/packages/docusaurus-utils-common/lib',
-    '/packages/docusaurus-utils-validation/lib',
-    '/packages/docusaurus-plugin-content-blog/lib',
-    '/packages/docusaurus-plugin-content-docs/lib',
-    '/packages/docusaurus-plugin-content-pages/lib',
-    '/packages/docusaurus-theme-classic/lib',
-    '/packages/docusaurus-theme-common/lib',
-    '/packages/docusaurus-migrate/lib',
+    '/lib',
     '/jest',
-    '/argos',
 ];
 
 export default {
@@ -43,8 +31,6 @@ export default {
     testTimeout: 15000,
     coveragePathIgnorePatterns: [
         ...ignorePatterns,
-        // We also ignore all package entry points
-        '/packages/docusaurus-utils/src/index.ts',
     ],
     transform: {
         '^.+\\.[jt]sx?$': [
@@ -78,8 +64,7 @@ export default {
         '@site/(.*)': 'website/$1',
 
         // Using src instead of lib, so we always get fresh source
-        '@docusaurus/plugin-content-docs/client':
-            '@docusaurus/plugin-content-docs/src/client/index.ts',
+        'docusaurus-plugin-content-docs/client':'src/client/index.ts',
 
         '@testing-utils/(.*)': '<rootDir>/jest/utils/$1.ts',
 
