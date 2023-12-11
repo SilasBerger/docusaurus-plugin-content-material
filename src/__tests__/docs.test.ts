@@ -7,7 +7,6 @@
 
 import {jest} from '@jest/globals';
 import path from 'path';
-import {loadContext} from '@docusaurus/core/src/server/index';
 import {createSlugger, posixPath, DEFAULT_PLUGIN_ID} from '@docusaurus/utils';
 import {createSidebarsUtils} from '../sidebars/utils';
 import {
@@ -33,6 +32,7 @@ import type {
 } from 'plugin-content-material';
 import type {LoadContext} from '@docusaurus/types';
 import type {Optional} from 'utility-types';
+import {loadContext} from "@docusaurus/core/lib/server";
 
 const fixtureDir = path.join(__dirname, '__fixtures__');
 

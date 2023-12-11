@@ -12,9 +12,6 @@ import _ from 'lodash';
 import {isMatch} from 'picomatch';
 import commander from 'commander';
 import webpack from 'webpack';
-import {loadContext} from '@docusaurus/core/src/server/index';
-import {applyConfigureWebpack} from '@docusaurus/core/src/webpack/utils';
-import {sortConfig} from '@docusaurus/core/src/server/plugins/routeConfig';
 import {posixPath} from '@docusaurus/utils';
 import {normalizePluginOptions} from '@docusaurus/utils-validation';
 
@@ -37,6 +34,9 @@ import type {
   SidebarItemsGeneratorOption,
   NormalizedSidebar,
 } from '../sidebars/types';
+import {sortConfig} from "@docusaurus/core/lib/server/plugins/routeConfig";
+import {loadContext} from "@docusaurus/core/lib/server";
+import {applyConfigureWebpack} from "@docusaurus/core/lib/webpack/utils";
 
 function findDocById(version: LoadedVersion | undefined, id: string) {
   if (!version) {
