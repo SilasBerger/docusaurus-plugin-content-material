@@ -64,7 +64,7 @@ export default {
         '@site/(.*)': 'website/$1',
 
         // Using src instead of lib, so we always get fresh source
-        'docusaurus-plugin-content-docs/client':'src/client/index.ts',
+        'docusaurus-plugin-content-material/client': 'src/client/index.ts',
 
         '@testing-utils/(.*)': '<rootDir>/jest/utils/$1.ts',
 

@@ -60,8 +60,6 @@ export default async function pluginContentMaterial(
   context: LoadContext,
   options: PluginOptions,
 ): Promise<Plugin<LoadedContent>> {
-  console.log('Invoking plugin-content-material');
-
   const {siteDir, generatedFilesDir, baseUrl, siteConfig} = context;
   // Mutate options to resolve sidebar path according to siteDir
   options.sidebarPath = resolveSidebarPathOption(siteDir, options.sidebarPath);
